@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jerarquica.Page3"
+             Title="Pagina 3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Translation2" x:Name="translationarriba" Background="red" Clicked="translation2_Clicked"/>
+            <Button Text="Regresar" Clicked="Button_Clicked"/>
+
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Translation" x:Name="translation" Background="orange" Clicked="translation_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

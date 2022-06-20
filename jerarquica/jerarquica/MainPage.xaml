@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jerarquica.MainPage"
+             Title="Pagina 1">
+    <ScrollView>
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Button Text="Ir pagina 2" Clicked="Button_Clicked"/>
+        <Button Text="Rotation " x:Name="rotation" Background="blue" Clicked="Button_Clicked_1"/>
+        <Button Text="Boton 1" 
+                x:Name="boton1"
+                Clicked="boton1_Clicked"
+                Background="darkblue"
+                WidthRequest="200"
+                HeightRequest="40"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+        <Button Text=" Boton 2" x:Name="boton2" Clicked="boton2_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                                Background="darkblue"
+
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+        <Button Text="Boton 3" x:Name="boton3" Clicked="boton3_Clicked"  WidthRequest="200"
+                HeightRequest="40"
+                Background="green"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+        <Button Text="Boton 4" x:Name="boton4" Clicked="boton4_Clicked"  WidthRequest="200"
+                HeightRequest="40"
+                                Background="green"
+
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+        <Button Text="Boton 5" x:Name="boton5" Clicked="boton5_Clicked"  WidthRequest="200"
+                HeightRequest="40"
+                Background="red"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            <Button Text="Boton6" x:Name="boton6" Clicked="boton6_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                                    Background="red"
+
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            <Button Text="boton7" x:Name="boton7" Clicked="boton7_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                    Background="orange"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            <Button Text="boton8" x:Name="boton8" Clicked="Boton8_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                                        Background="orange"
+
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            <Button Text="boton9" x:Name="boton9"  Clicked="boton9_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                    Background="green"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            <Button Text="boton10" x:Name="boton10" Clicked="boton10_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                VerticalOptions="Center"
+                                        Background="green"
+
+                HorizontalOptions="Center"/>
+            <Button Text="boton11" x:Name="boton11" Clicked="boton11_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                    Background="yellow"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            <Button Text="boton12" x:Name="boton12" Clicked="boton12_Clicked" WidthRequest="200"
+                HeightRequest="40"
+                                        Background="yellow"
+
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+          
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
